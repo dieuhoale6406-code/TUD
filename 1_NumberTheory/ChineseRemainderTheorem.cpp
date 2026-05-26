@@ -40,7 +40,7 @@ vector<long long> modInverse(vector<long long> &x, vector<long long> &m)
     }
     return x_inverse;
 }
-
+// Thặng dư Trung Hoa
 int main()
 {
     long long n;

@@ -27,7 +27,7 @@ vector<pair<long long, long long>> primeFactors(long long n)
         factors.push_back(make_pair(temp, 1));
     return factors;
 }
-
+// Ước số nguyên tố M gần N nhất (ưu tiên nhỏ hơn nếu hòa)
 long long largestPrimeFactor(const vector<pair<long long, long long>> &factors)
 {
     if (factors.empty())
@@ -44,7 +44,7 @@ bool isPrime(long long n)
             return false;
     return true;
 }
-
+// Các số nguyên tố trong khoảng [a, b]
 vector<long long> primesInRange(long long a, long long b)
 {
     vector<long long> primes;
@@ -70,7 +70,7 @@ bool isPerfectNumber(long long n)
     }
     return sum == n;
 }
-
+// Tìm tất cả số hoàn hảo nhỏ hơn M
 vector<long long> perfectNumbersLessThan(long long M)
 {
     vector<long long> perfects;

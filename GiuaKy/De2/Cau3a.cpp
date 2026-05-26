@@ -102,7 +102,7 @@ bool isPositiveDefinite(const Matrix &A)
     }
     return true;
 }
-
+// Phân rã LDL^T
 void ldlt(const Matrix &A)
 {
     int n = A.size();

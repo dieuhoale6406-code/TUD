@@ -121,7 +121,7 @@ void computeEigen(const Matrix &A, vector<double> &eigenvalues, Matrix &eigenvec
             eigenvectors[j][i] = solver.eigenvectors()(j, i);
     }
 }
-
+// Phân rã Eigen Decomposition
 void eigenDecomposition(const Matrix &A)
 {
     int n = A.size();

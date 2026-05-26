@@ -39,7 +39,7 @@ bool isPerfectNumber(long long n)
     }
     return sum == n;
 }
-
+// Tìm tất cả số nguyên tố cùng nhau với N
 vector<long long> coprimes()
 {
     vector<long long> list;
@@ -52,7 +52,7 @@ vector<long long> coprimes()
     }
     return list;
 }
-
+// Tìm số nguyên tố M gần N nhất (ưu tiên nhỏ hơn nếu hòa)
 long long nearestPrime()
 {
     if (isPrime(N))
@@ -65,7 +65,7 @@ long long nearestPrime()
             return N + d;
     }
 }
-
+// Tìm tất cả số hoàn hảo nhỏ hơn M
 vector<long long> perfectNumbersLessThan(long long M)
 {
     vector<long long> list;
@@ -78,7 +78,7 @@ vector<long long> perfectNumbersLessThan(long long M)
     }
     return list;
 }
-
+// Tìm số nguyên gần N nhất chia hết cho 3
 long long nearestDivisibleBy3()
 {
     if (N % 3 == 0)

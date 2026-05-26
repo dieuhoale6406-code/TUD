@@ -102,7 +102,7 @@ bool isPositiveDefinite(const Matrix &A)
     }
     return true;
 }
-
+// Phân rã Cholesky LDL^T
 void choleskyLDLT(const Matrix &A)
 {
     int n = A.size();

@@ -30,7 +30,7 @@ long long eulerPhi(long long n)
         result -= result / n;
     return result;
 }
-
+// Đồng dư
 vector<long long> modInverse(vector<long long> &x, vector<long long> &m)
 {
     vector<long long> x_inverse;
