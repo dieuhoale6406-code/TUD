@@ -1,0 +1,59 @@
+# =====================================================================
+# .gitignore - TOÁN ỨNG DỤNG (DUT)
+# =====================================================================
+
+# 1. Thư viện ngoài & mã nguồn thư viện cồng kềnh (Libraries)
+**/Eigen/
+**/eigen/
+**/eigen3/
+eigen/
+
+# 2. File thực thi và mã máy biên dịch (Executables & Binaries)
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.bin
+
+# 3. Thư mục build & output biên dịch
+build/
+**/build/
+bin/
+**/bin/
+obj/
+**/obj/
+Debug/
+**/Debug/
+Release/
+**/Release/
+
+# 4. Công cụ IDE, VS Code & Test runner
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+*.prob
+**/*.prob
+.cph/
+**/.cph/
+tempCodeRunnerFile.*
+**/tempCodeRunnerFile.*
+
+# 5. File nén lưu trữ lớn
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 6. Python bytecode cache
+__pycache__/
+*.py[cod]
+
+# 7. Kho lưu trữ lồng nhau (Sub-repository độc lập)
+ToanUD_src-and-tools/
